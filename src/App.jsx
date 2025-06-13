@@ -13,6 +13,7 @@ function App() {
     <>
       <Header />
       <Main />
+      <div className='spacer'></div>
       <Footer />
     </>
   );

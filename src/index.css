@@ -6,3 +6,13 @@ body {
   padding: 0;
   margin: 0;
 }
+
+a,
+a:visited {
+  color: black;
+}
+
+a:hover,
+a:active {
+  color: #333;
+}

@@ -9,7 +9,7 @@
 .main-content {
   box-sizing: border-box;
   padding: 1rem;
-  background-color: red;
+  background-color: #4A90E2;
   border-radius: 0.9rem;
   display: flex;
   flex-direction: column;
@@ -22,5 +22,21 @@
   width: 80%;
   border-radius: 1rem;
   order: -999;
-  box-shadow: 3px 3px 5px rgb(0, 0, 0);
+  box-shadow: 3px 3px 5px #2C3E50;
+}
+
+@media (max-width: 700px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    max-width: 60rem;
+    width: 100%; 
+    margin: 0 auto; 
+  }
+
+  .main-content {
+    width: 80%;
+    margin: 0 auto; 
+  }
 }

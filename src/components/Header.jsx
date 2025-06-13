@@ -1,11 +1,11 @@
-import relogio from './../assets/relogio.png';
+import { Clock3 } from 'lucide-react';
 import './Header.modules.css';
 
 export default function Header() {
   return (
     <div className="header-container">
-      <img src={relogio} alt=""></img>;
-      <h2 className="header-title">Força, Foco, Fé</h2>
+      <Clock3 className='header-img' />
+      <h1 className="header-title">Força, Foco, Fé</h1>
     </div>
   );
 }

@@ -6,7 +6,7 @@ export default function Main() {
     return `https://picsum.photos/200?random=${randomNmbr}`;
   }
 
-  const elementos = Array.from({ length: 10 }, (_, i) => (
+  const elementos = Array.from({ length: 5 }, (_, i) => (
     <div className="main-content" key={i}>
       <h3 style={{margin:0, marginTop: 10}}>My Text {i}</h3>
       <img src={randomImg()} className='main-image' />
